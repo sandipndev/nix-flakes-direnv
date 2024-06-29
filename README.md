@@ -13,8 +13,6 @@ This Docker image combines the power of Nix Flakes with Direnv to create a robus
 - Docker: Ensure Docker is installed and running on your system. For installation instructions, visit [Docker's official documentation](https://docs.docker.com/get-docker/).
 
 ### Using the Image
-In scripts, you can use `direnv-allow`.
-
 To start a container with your custom development environment:
 ```bash
 docker run -it --rm sandipndev/nix-flakes-direnv:latest
